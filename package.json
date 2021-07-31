@@ -1,0 +1,25 @@
+{
+  "name": "myapplication-v.1.0.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuchan-dev/myapps.git"
+  },
+  "keywords": [
+    "myapp",
+    "nodejs",
+    "rest",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuchan-dev/myapps/issues"
+  },
+  "homepage": "https://github.com/shuchan-dev/myapps#readme"
+}
