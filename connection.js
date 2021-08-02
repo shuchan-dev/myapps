@@ -8,7 +8,9 @@ const conn = mysql.createConnection({
     database: 'dbpus'
 });
 
-conn.connect((err)=> {
+conn.connect((err) => {
     if (err) throw err;
     console.log('Successful connected to mysql');
 })
+
+module.exports = conn;
