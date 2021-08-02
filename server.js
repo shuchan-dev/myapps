@@ -7,6 +7,12 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+
+// call routes
+var routes = require('./routes');
+routes(app)
+
+
 // running server
 app.listen(3000, () => {
     console.log('Server listening on port 3000');
