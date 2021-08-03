@@ -5,4 +5,8 @@ module.exports = (app) => {
 
     app.route('/')
         .get(myjson.index);
+
+    // menampilkan semua data pada tabel
+    app.route('/show')
+        .get(myjson.showKeranjangtable)
 }
